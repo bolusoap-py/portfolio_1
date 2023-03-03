@@ -1,0 +1,305 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin Sans', sans-serif;
+    
+}
+.hero{
+    background-image: url(images/images\ \(4\).jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: white;
+}
+nav{
+    display: flex;
+    padding-left: 12%;
+    padding-right: 18%;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+nav ul li a:hover{
+    color: aqua;
+    transition: .4s;
+}
+.btn{
+    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px  solid transparent;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left:9%;
+    transform: translate(-20%);
+    color: white;
+}
+
+h1{
+    margin: 20px 0px 20px;
+    font-size: 45px;
+}
+h3{
+    margin-bottom: 45px;
+    font-size: 25px;
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 100px 10px 10px;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #ff1111;
+}
+.newsletter form input:last-child{
+    background-color: red;
+    color:white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top:2px;
+    right: 2px;
+    position: absolute;
+    display: inline-block;
+}
+.about{
+    background-color: #222121;
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    width: 430px;
+    padding-left: 30px;
+}
+.pic{
+    display: flex;
+    width: 1130px;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 95%;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+button{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 13px 30px;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+}
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    text-align:center;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    background: #191919;
+    padding: 25px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    color: red;
+    font-size: 45px;
+    justify-content: center;
+    display: block;
+}
+h5{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pra p{
+    color:#fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: .2s;
+    padding: 9px 22px;
+   
+}
+.card .button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #f9004d;
+}
+.contact-me{
+    display: flex;
+    background-color: #222121;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: 290px;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 13px 30px;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #f9004d;
+}
+footer{
+    display: flex;
+    background: #101010;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color: white;
+    margin-bottom: 45px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.social a{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #f9004d;
+}
+.end{
+    color: #f9004d;
+    text-transform: capitalize;
+    padding-top: 50px;
+    font-size: 14px;
+}
